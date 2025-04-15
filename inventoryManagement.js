@@ -15,19 +15,19 @@ function logFirstProduct() {
   console.log(products[0]);
 }
 
-// Adds a product (just a string, not an object)
+// Adds a product 
 function addProduct(name) {
   products.push(name);
 }
 
-// Updates the name (replaces string at index)
+// Update name
 function updateProductName(index, newName) {
   if (products[index]) {
     products[index] = newName;
   }
 }
 
-// Removes the last product
+// Remove the last product
 function removeLastProduct() {
   if (products.length > 0) {
     products.pop();
